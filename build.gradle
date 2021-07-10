@@ -44,9 +44,9 @@ test {
 // Custom Task pada Gradle menggunakan Groovy
 task printCustomTask{
     doFirst {
-        println("Ini Command Pertama")
+        println("Ini Dicetak Dari Command Pertama")
     }
     doLast {
-        println("Ini Command Terakhir")
+        println("Ini Dicetak Dari Command Terakhir")
     }
 }
