@@ -7,8 +7,4 @@
  * in the user manual at https://docs.gradle.org/6.6/userguide/multi_project_builds.html
  */
 
-rootProject.name = 'training-gradle'
-
-// Untuk menambahkan module atau project multi module
-include("training-gradle-model")
-include("training-gradle-util")
+rootProject.name = "training-gradle-model"

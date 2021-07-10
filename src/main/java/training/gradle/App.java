@@ -4,6 +4,8 @@
 package training.gradle;
 
 import com.google.gson.Gson;
+import training.gradle.model.Product;
+import training.gradle.util.StringUtil;
 
 public class App {
     public String getGreeting() {
@@ -15,5 +17,8 @@ public class App {
         System.out.println("Belajar Gradle");
 
         Gson gson = new Gson();
+
+        Product p1 = new Product("1", "handphone politron");
+        System.out.println(StringUtil.INSTANCE.toUpper(p1.getName()));
     }
 }

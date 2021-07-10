@@ -32,6 +32,12 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.google.code.gson/gson
     implementation 'com.google.code.gson:gson:2.8.7'
+
+    // Add Library Dari Module Model
+    implementation(project(':training-gradle-model'))
+
+    // Add Library Dari Module Util
+    implementation(project(':training-gradle-util'))
 }
 
 application {
