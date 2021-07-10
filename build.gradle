@@ -50,3 +50,10 @@ task printCustomTask{
         println("Ini Dicetak Dari Command Terakhir")
     }
 }
+
+task printAuthorFromGradleProperties{
+    String author = findProperty('author')
+    doFirst {
+        println(author)
+    }
+}
